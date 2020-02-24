@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Survey Form</title>
+</head>
+<h1 id="title" ></h1>
+<body style="background-image: url('photo.jpg');">
+    <div >
+    <div id = "inital">
+        <h1 id="title">
+            freeCodeCamp Survey Form
+        </h1>
+        
+        <p id="description"> 
+            Thank you for taking the time to help us improve the platform
+        </p>
+    </div>
+    <div>
+        <form id="survey-form">
+            
+              <div>
+                <label for="name" class="leftcol" id="name-label">Name</label>
+                
+                <input type="text"  name="name" class="leftcol" id="name" placeholder="Enter your Name" required>
+                
+              </div>
+
+              <div>
+                
+                <label for="email" class="leftcol" id="email-label">Email</label>
+                <input type="email" name="email" id="email" class="leftcol" placeholder="Enter Your Email" required>
+              </div>
+              <div>
+                
+                <label for="age" class="leftcol" id="number-label">Age (optional)</label>
+                <input type="number" name="age" id="Number" class="leftcol" placeholder="age" >
+              </div>
+              <div> 
+                <br>
+                <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+                <br>
+                  <select name="dropdown" id="dropdown" class="leftcol">
+                    <option value="1" selected="">Select current role</option>
+                    <option value="2">Student</option>
+                    <option value="3">Full Time Job</option>
+                    <option value="4">Full Time Learner</option>
+                    <option value="5">prefer not to say</option>
+                    
+                  </select>
+                
+              </div>
+              <div>
+                <p><label>Favorite Learning Style :</label></p>
+                <div>
+                <label>YouTube </label><input type="radio" name="resource" value="1"><br>
+                <label>Online Courses</label><input type="radio" value="2" name="resource"><br>
+                <label>Traditional Education</label><input type="radio" value="3" name="resource"><br>
+                <label>Books</label><input type="radio" name="resource" value="4">
+                </div>
+              <div>
+                <P>What would you like to see improved? (Check all that apply)</P>
+                <div>
+                  <label><input type="checkbox" name="reason" value="1">Front-end Projects</label><br>
+                  <label><input type="checkbox" name="reason" value="2">Back-end Projects</label><br>
+                  <label><input type="checkbox" name="reason" value="3">Data Visualization</label><br>
+                  <label><input type="checkbox" name="reason" value="4">Challenges</label><br>
+                  <label><input type="checkbox" name="reason" value="5">Open Source Community</label><br>
+                  <label><input type="checkbox" name="reason" value="6">Gitter help rooms</label><br>
+                  <label><input type="checkbox" name="reason" value="7">Videos</label><br>
+                  <label><input type="checkbox" name="reason" value="7">City Meetups</label><br>
+                  <label><input type="checkbox" name="reason" value="7">Wiki</label><br>
+                  <label><input type="checkbox" name="reason" value="7">Forum</label><br>
+                  <label><input type="checkbox" name="reason" value="7">Additional Courses</label><br>
+                </div>
+                <div>
+                <p>Any comments or suggestions?</p>    
+                <textarea name="textarea" id="textarea" rows="10" cols="50"  placeholder="Enter Your Comment here"></textarea>
+                </div>
+              </div>
+            <input type="submit" name="submit" id="submit" value="SUBMIT">
+          </form>
+        
+    </div>
+</body>
+
+</html>

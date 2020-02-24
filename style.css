@@ -1,0 +1,72 @@
+#inital{
+    text-align: center;
+    
+}
+#title{
+   color: blanchedalmond;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 200%;
+} 
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
+}
+#description{
+    color: blanchedalmond;
+    font-style:oblique;
+    font-size: 130%;
+}
+#survey-form{
+    background-color: rgb(94, 49, 253);
+
+    width: 40%;
+    margin: auto;
+    border-radius: 0.8%;
+    padding: 3%;
+  
+}
+.leftcol {
+    
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 8%;
+    
+  }
+#name, #email,#Number,#dropdown{
+    padding-left: 10px;
+    height:40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 70%;
+  }
+#textarea{
+    padding-left: 10px;
+    height:120px;
+    border-radius: 3px;
+    border: none;
+    font-size: 110%;
+    width: 100%;
+  }
+
+
+#submit {
+background-color: rgb(8, 204, 18);
+color: white;
+height: 40px;
+width: 100%;
+font-size: 24px;
+margin: auto;
+display: block;
+margin-top: 30px;
+border-radius: 5px;
+}
+  
+  
+  
+  
+  
+  
+
+  
+ 
+ 
